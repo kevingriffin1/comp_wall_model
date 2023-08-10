@@ -1,6 +1,4 @@
-This code implements the near
-
-This repository implements a near-wall model for turbulent flows with strong variations in properties such as in high-mach-number flows.
+This repository implements a near-wall model for turbulent flows with strong variations in properties (e.g., high-mach-number flows).
 
 The details of the model are presented in the reference:
 K. P. Griffin, L. Fu, and P. Moin. "Near-wall model for compressible turbulent boundary layers based on an inverse velocity transformation." arXiv preprint arXiv:2307.04958 (2023).
