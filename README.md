@@ -1,8 +1,9 @@
 This repository implements a near-wall model for turbulent flows with strong variations in properties (e.g., high-mach-number flows).
 
 The details of the model are presented in the reference:
-K. P. Griffin, L. Fu, and P. Moin. "Near-wall model for compressible turbulent boundary layers based on an inverse velocity transformation." arXiv preprint arXiv:2307.04958 (2023).
-https://arxiv.org/abs/2307.04958
+K. P. Griffin, L. Fu, and P. Moin. "Near-wall model for compressible turbulent boundary layers based on an inverse velocity transformation." Journal of Fluid Mechanics. Volume 970 , 10 September 2023 , A36, <https://doi.org/10.1017/jfm.2023.627>
+
+Also, available as the preprint arXiv:2307.04958 (2023) <https://arxiv.org/abs/2307.04958>
 
 Abstract:
 In this work, a near-wall model, which couples the inverse of a recently developed compressible velocity transformation [Griffin, Fu, & Moin, PNAS, 118:34, 2021] and an algebraic temperature-velocity relation, is developed for high-speed turbulent boundary layers. As input, the model requires the mean flow state at one wall-normal height in the inner layer of the boundary layer and at the boundary-layer edge. As output, the model can predict mean temperature and velocity profiles across the entire inner layer, as well as the wall shear stress and heat flux. The model is tested in an a priori sense using a wide database of direct numerical simulation high-Mach-number turbulent channel flows, pipe flows, and boundary layers (48 cases with edge Mach numbers in the range of 0.77--11 and semi-local friction Reynolds numbers in the range of 170--5700). The present model is significantly more accurate than the classical ordinary differential equation (ODE) model for all cases tested. The model is deployed as a wall model for large-eddy simulations in channel flows with bulk Mach numbers in the range of 0.7--4 and friction Reynolds numbers in the range of 320--1800. When compared to the classical framework, in the a posteriori sense, the present method greatly improves the predicted heat flux, wall stress, and temperature and velocity profiles, especially in cases with strong heat transfer. In addition, the present model solves one ODE instead of two and has a similar computational cost and implementation complexity as the commonly used ODE model. 
